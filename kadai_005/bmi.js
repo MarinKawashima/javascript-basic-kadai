@@ -5,7 +5,7 @@ let bodyWeight= 68;
 let height= 1.7;
 
 // 計算式
-const BodyMassIndex= bodyWeight / (height*height);
+let BodyMassIndex= bodyWeight / (height*height);
 
 // コンソールへの出力
 console.log(bodyWeight);
